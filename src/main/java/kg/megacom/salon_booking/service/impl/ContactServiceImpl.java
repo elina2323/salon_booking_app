@@ -1,8 +1,10 @@
 package kg.megacom.salon_booking.service.impl;
 
 import kg.megacom.salon_booking.dao.ContactRepo;
+import kg.megacom.salon_booking.exception.ResourceNotFoundException;
 import kg.megacom.salon_booking.mapper.ContactMapper;
 import kg.megacom.salon_booking.model.dto.ContactDTO;
+import kg.megacom.salon_booking.model.entity.Branch;
 import kg.megacom.salon_booking.model.entity.Contact;
 import kg.megacom.salon_booking.service.ContactService;
 import lombok.RequiredArgsConstructor;

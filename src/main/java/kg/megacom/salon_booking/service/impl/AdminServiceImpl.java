@@ -1,6 +1,7 @@
 package kg.megacom.salon_booking.service.impl;
 
 import kg.megacom.salon_booking.dao.AdminRepo;
+import kg.megacom.salon_booking.exception.ResourceNotFoundException;
 import kg.megacom.salon_booking.mapper.AdminMapper;
 import kg.megacom.salon_booking.model.dto.AdminDTO;
 import kg.megacom.salon_booking.model.entity.Admin;

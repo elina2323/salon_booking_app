@@ -1,6 +1,7 @@
 package kg.megacom.salon_booking.service.impl;
 
 import kg.megacom.salon_booking.dao.MasterWorkDayRepo;
+import kg.megacom.salon_booking.exception.ResourceNotFoundException;
 import kg.megacom.salon_booking.mapper.MasterWorkDayMapper;
 import kg.megacom.salon_booking.model.dto.MasterWorkDayAppDTO;
 import kg.megacom.salon_booking.model.dto.MasterWorkDayDTO;
