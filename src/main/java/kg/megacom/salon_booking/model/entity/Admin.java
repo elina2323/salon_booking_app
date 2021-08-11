@@ -1,5 +1,6 @@
 package kg.megacom.salon_booking.model.entity;
 
+import kg.megacom.salon_booking.model.enums.AdminStatus;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
